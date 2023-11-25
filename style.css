@@ -41,7 +41,7 @@ body {
   .back-to-top {
     position: fixed;
     display: none;
-    background: #DC143C;
+    background: gold;
     color: #fff;
     width: 44px;
     height: 44px;
@@ -127,7 +127,7 @@ body {
   }
   
   #header.header-scrolled {
-    background: rgba(220, 20, 60, 0.8);
+    background: gold;
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
@@ -151,7 +151,7 @@ body {
   #header #logo h1 a:hover {
     color: #fff;
     padding-left: 10px;
-    border-left: 4px solid #DC143C;
+    
   }
   
   #header #logo img {
@@ -172,7 +172,7 @@ body {
   
   #intro .carousel-item {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,11 +210,9 @@ body {
     right: 0;
   }
   
-  #intro .carousel-background img {
-    max-width: 100%;
-  }
+ 
   
-  #intro .carousel-content {
+  .intro .carousel-content {
     text-align: center;
   }
   
@@ -288,12 +286,12 @@ body {
     transition: 0.5s;
     margin: 10px;
     color: #fff;
-    background: #DC143C;
+    background: gold;
   }
   
   #intro .btn-get-started:hover {
     background: #fff;
-    color: #DC143C;
+    color: gold;
   }
   
   /*--------------------------------------------------------------
@@ -339,7 +337,7 @@ body {
   }
   
   .nav-menu ul li {
-    min-width: 180px;
+    min-width: 200px;
   }
   
   /* Nav Menu Arrows */
@@ -372,19 +370,19 @@ body {
   
   .nav-menu a {
     padding: 0 8px 10px 8px;
-    text-decoration: none;
+    text-decoration: goldenrod;
     display: inline-block;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
-    outline: none;
+    outline: goldenrod;
   }
   
   .nav-menu li:hover > a,
   .nav-menu > .menu-active > a {
-    color: #DC143C;
+    color: gold;
   }
   
   .nav-menu > li {
@@ -395,9 +393,9 @@ body {
     margin: 4px 0 0 0;
     padding: 10px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    background: #fff;
+    
   }
-  
+
   .nav-menu ul li {
     transition: 0.3s;
   }
@@ -412,7 +410,7 @@ body {
   }
   
   .nav-menu ul li:hover > a {
-    color: #DC143C;
+    color: gold;
   }
   
   .nav-menu ul ul {
@@ -481,7 +479,7 @@ body {
   }
   
   #mobile-nav ul li a:hover {
-    color: #DC143C;
+    color: gold;
   }
   
   #mobile-nav ul li li {
@@ -489,7 +487,7 @@ body {
   }
   
   #mobile-nav ul li.menu-active a {
-    color: #DC143C;
+    color: gold;
   }
   
   #mobile-nav ul .menu-has-children i {
@@ -502,7 +500,7 @@ body {
   }
   
   #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #DC143C;
+    color: gold;
   }
   
   #mobile-nav ul .menu-has-children li a {
@@ -510,7 +508,7 @@ body {
   }
   
   #mobile-nav ul .menu-item-active {
-    color: #DC143C;
+    color: gold;
   }
   
   #mobile-body-overly {
@@ -572,7 +570,7 @@ body {
     display: block;
     width: 40px;
     height: 3px;
-    background: #DC143C;
+    background: gold;
     bottom: 0;
     left: calc(50% - 20px);
   }
@@ -637,7 +635,7 @@ body {
   --------------------------------*/
   
   #about {
-    background: url("../images/1.jpg") center top no-repeat fixed;
+    background: url("../images/7.jpg") center top no-repeat fixed;
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
@@ -680,7 +678,7 @@ body {
     padding-top: 8px;
     text-align: center;
     position: absolute;
-    background-color: #DC143C;
+    background-color: gold;
     border-radius: 50%;
     text-align: center;
     border: 4px solid #fff;
@@ -701,7 +699,7 @@ body {
   }
   
   #about .about-col:hover i {
-    color:#DC143C ;
+    color:gold;
   }
   
   #about .about-col h2 {
@@ -718,7 +716,7 @@ body {
   }
   
   #about .about-col h2 a:hover {
-    color: #DC143C;
+    color: gold;
   }
   
   #about .about-col p {
@@ -747,7 +745,7 @@ body {
   }
   
   #services .icon i {
-    color:  #DC143C;
+    color:  gold;
     font-size: 36px;
     line-height: 1;
     transition: 0.5s;
@@ -765,7 +763,7 @@ body {
   }
   
   #services .box:hover .title a {
-    color: #DC143C;
+    color: gold;
   }
   
   #services .description {
@@ -784,6 +782,7 @@ body {
   
   #portfolio {
     padding: 60px 0;
+    
   }
   
   #portfolio #portfolio-flters {
@@ -810,7 +809,7 @@ body {
   
   #portfolio #portfolio-flters li:hover,
   #portfolio #portfolio-flters li.filter-active {
-    background: #DC143C;
+    background: gold;
     color: #fff;
   }
   
@@ -870,7 +869,7 @@ body {
   
   #portfolio .portfolio-item figure .link-preview:hover,
   #portfolio .portfolio-item figure .link-details:hover {
-    background: #DC143C;
+    background: gold;
   }
   
   #portfolio .portfolio-item figure .link-preview:hover i,
@@ -918,7 +917,7 @@ body {
   }
   
   #portfolio .portfolio-item .portfolio-info h6 a:hover {
-    color: #DC143C;
+    color: gold;
   }
   
   #portfolio .portfolio-item .portfolio-info p {
@@ -960,7 +959,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
-    border-left: 4px solid #DC143C;
+    border-left: 4px solid gold;
   }
   
   #footer .footer-top .footer-info p {
@@ -987,7 +986,7 @@ body {
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #DC143C;
+    background: gold;
     color: #fff;
   }
   
@@ -1015,7 +1014,7 @@ body {
   }
   
   #footer .footer-top h4::after {
-    background: #DC143C;
+    background: gold;
     width: 60px;
   }
   
@@ -1048,7 +1047,7 @@ body {
   }
   
   #footer .footer-top .footer-links ul a:hover {
-    color: #DC143C;
+    color: gold;
   }
   
   #footer .footer-top .footer-contact {
@@ -1070,7 +1069,7 @@ body {
   }
   
   #footer .footer-top .footer-newsletter input[type="submit"] {
-    background: #DC143C;
+    background: gold;
     border: 0;
     width: 35%;
     padding: 6px 0;
